@@ -1,6 +1,3 @@
-// Importation d'Axios sous le nom api
-import { api } from 'boot/axios'
-
 // State : données du magasin
 const state = {
   // Tableau des clients
@@ -573,29 +570,14 @@ Mutations : méthode qui manipulent les données
 Les mutations ne peuvent pas être asynchrones !!!
  */
 const mutations = {
-  // Remplace le tableau des clients par le tableau newClients en paramètres
-  setClients (state, newClients) {
-    state.clients = newClients
-  }
+
 }
 /*
 Actions : méthodes du magasin qui font appel aux mutations
 Elles peuvent être asynchrones !
  */
 const actions = {
-  // Récupère le tableau des clients en appelant l'API et met à jour le magasin
-  getClientsApi ({ commit }) {
-    // GET
-    api.get('https://randomuser.me/api/?results=100&nat=CH')
-      // En cas de succès met à jour le tableau des clients du magasin
-      .then(function (response) {
-        commit('setClients', response.data.results)
-      })
-      // En cas d'erreur, stoppe le script et affiche le message dans la console
-      .catch(function (error) {
-        throw error
-      })
-  }
+
 }
 
 /*
