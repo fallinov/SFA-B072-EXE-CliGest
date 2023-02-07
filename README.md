@@ -1,12 +1,12 @@
 # Exercice GestCli
 
-### Cours B072 2020 de l'[ESIG](http://www.esig-jura.ch/fr-esig/L-ecole/Qui-sommes-nous/Ecole-Superieure-d-Informatique-de-Gestion.html)
-
 Support de cours : https://divtec.gitbook.io/quasar/
 
 
 ## Installer les librairies
 ```bash
+yarn
+# ou
 npm install
 ```
 
@@ -17,6 +17,8 @@ quasar dev
 
 ### Inspecter les erreurs de qualité du code : Lint
 ```bash
+yarn lint
+# ou
 npm run lint
 ```
 
