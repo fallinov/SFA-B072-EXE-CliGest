@@ -1,8 +1,8 @@
 {
   "name": "ch.kode.sfa-quasar-base",
   "version": "0.0.1",
-  "description": "Une installation de base pour vos projets",
-  "productName": "Projet de base Quasar",
+  "description": "Gestion de vos clients",
+  "productName": "CliGest",
   "author": "Steve Fallet <steve.fallet@divtec.ch>",
   "private": true,
   "scripts": {
